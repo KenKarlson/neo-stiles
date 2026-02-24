@@ -457,3 +457,51 @@ img {
 body.nb-dark .nb-bg-pattern::before {
   --nb-border: #ffffff;
 }
+
+
+
+/* ==========================================
+   DOWNLOAD BOX (Секция приветствия)
+   ========================================== */
+.download-box {
+  background: var(--nb-surface);
+  border: var(--nb-border-width) solid var(--nb-border);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 10px 10px 0 var(--nb-border);
+  margin-bottom: 50px;
+  border-radius: var(--nb-radius);
+}
+
+.download-box h1 {
+  font-family: var(--nb-font-head);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.download-box p {
+  margin-bottom: 10px;
+}
+
+.download-box .instructions {
+  text-align: left;
+  margin-top: 30px;
+  border-top: var(--nb-border-width) solid var(--nb-border);
+  padding-top: 20px;
+}
+
+.download-box .instructions h3 {
+  font-family: var(--nb-font-head);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.download-box .instructions pre {
+  background: var(--nb-text);
+  color: var(--nb-surface);
+  padding: 10px;
+  border-radius: var(--nb-radius);
+  overflow-x: auto;
+  font-family: var(--nb-font-main);
+  font-size: 0.9rem;
+}
